@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JSON-tehtävät</title>
+  <!-- Bootstrap-tyylit -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Oma tyylitiedosto -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
+  <!-- Navigaatio -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
     <div class="container">
       <a class="navbar-brand fw-semibold" href="index.html">JSON-tehtävät</a>
@@ -16,7 +19,9 @@
       </button>
       <div id="nav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
+          <!-- Linkit eri tehtäviin -->
           <li class="nav-item"><a class="nav-link" href="json.html">Tehtävä 1 – JSON</a></li>
+          <li class="nav-item"><a class="nav-link" href="toteutus.html">Toteutus</a></li>
           <li class="nav-item"><a class="nav-link" href="poke.html">Tehtävä 2 – Poke haku</a></li>
           <li class="nav-item"><a class="nav-link" href="saa.html">Tehtävä 3 – Sää</a></li>
         </ul>
@@ -24,17 +29,20 @@
     </div>
   </nav>
 
+  <!-- Etusivun sisältö -->
   <main class="container py-5">
     <h1 class="mb-3">Digitekniikat – JSON-tehtävät</h1>
     <p class="lead">Tästä navigoit kolmeen tehtävään. Aloita <a href="json.html">Tehtävä 1: JSON</a>.</p>
     <hr>
     <ul>
       <li><strong>Tehtävä 1:</strong> Oman <code>tietue.json</code>-tiedoston haku ja tulostus sivulle.</li>
+      <li><strong>Toteutus:</strong> Kurssin toteutuksen tiedot JSON-tiedostosta.</li>
       <li><strong>Tehtävä 2:</strong> Pokémon-haku PokeAPI:sta.</li>
       <li><strong>Tehtävä 3:</strong> Helsingin säätiedot OpenWeatherMapista.</li>
     </ul>
   </main>
 
+  <!-- Bootstrapin JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
